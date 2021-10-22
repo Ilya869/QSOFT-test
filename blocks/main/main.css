@@ -1,0 +1,17 @@
+@import url(../main/__block/__block.css);
+@import url(../main/__block_images/__block_images.css);
+@import url(../main/__txt/__txt.css);
+@import url(../main/__block_link/__block_link.css);
+
+.main {
+    max-width: 1170px;
+    margin: 70px auto 0;
+    min-width: 300px;
+}
+
+
+@media screen and (max-width: 1215px) {
+    .main {
+        margin: 70px 20px 0;
+    }
+}

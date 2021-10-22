@@ -1,0 +1,13 @@
+.main__txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 160%;
+    color: #121920;
+}
+
+@media screen and (max-width: 768px) {
+    .main__txt {
+        font-size: 28px;
+    }
+}

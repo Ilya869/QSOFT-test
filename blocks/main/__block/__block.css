@@ -1,0 +1,15 @@
+.main__block {
+    display: flex;
+    max-width: 1170px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 550px) {
+    .main__block {
+        flex-direction: column;
+        margin: auto;
+    }
+}

@@ -1,0 +1,14 @@
+.search-box {
+  padding: 20px 50px 20px;
+  max-width: 763px;
+  flex-grow: 2;
+  height: 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .search-box {
+     order: 2;
+     padding: 0;
+     min-width: 250px;
+  }
+}
